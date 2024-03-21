@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Sholat</title>
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://1fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/style.css">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="flex duration-300 z-20 fixed left-0 right-0 justify-around py-6">
+        <div class="navbar-logo flex items-center">
+            <img width="60" height="60" src="https://img.icons8.com/papercut/60/mosque.png" alt="mosque"/>
+            <a href="" class="text-3xl ml-2 font-semibold  text-black">Mosque</a>
+        </div>
+        
+
+        <div class="navbar-nav">
+            <button id="logo" class="bg-[#ff9822] rounded-md py-4  px-6">
+                <a href="#jadwal"  class="text-white flex items-center mr-2 text-base font-medium" >Jadwal Sholat </a>
+            </button>
+        </div>
+    </nav>
+
+    <section  class=" pb-24">
+        <div class="hero">
+            <main class="content text-center  max-w-[60rem]">
+                <h1 class="text-[4rem] mb-2 font-bold mt-5  text-white">Welcome To <span class="text-[#ff9822] ">My Website</span</h1>
+                    
+                <p class="text-base font-thin w-2/3 border-t-2 pt-2 border-orange-500 text-white mx-auto">Selamat datang di web yang membawa cahaya ilmu dan keberkahan. </p>
+            </main>
+            <div class="background-container">
+                <img class="background" src="./dist/img/mos.jpg" alt="" />
+                
+        </div>
+    </div>
+    </section>
+
+        <section id="jadwal" class="pb-32" >
+        <div class="title-home mb-12">
+        <h1 class="text-3xl text-[#ff9822] font-semibold text-center mb-3">Jadwal Sholat</h1>
+        <div class="text-center">
+        <p class="text-lg font-semibold text-black flex justify-center items-center mr-3"><i data-feather="map-pin"></i>DKI Jakarta</p>
+        </div>
+        </div>
+        <div class="container  py-10 px-12 ">
+            <table class="mx-auto bg-slate-200 p-4 rounded-lg shadow-lg  ">
+                <tr>
+                    <th class="p-4"> <img src="./dist/img/islamic.png" class="w-[50px] mx-auto " alt=""> Nama Sholat</th>
+                    <th class="p-4"><img src="./dist/img/adzan.png" class="w-[50px] mx-auto " alt="">Waktu Adzan</th>
+                    <th class="p-4"><img src="./dist/img/prayer.png" class="w-[50px] mx-auto " alt="">Waktu Berdoa</th>
+                </tr>
+                <tr >
+                    <td class="">
+                        
+                       
+                        <a href="#"  class="flex justify-center w-full  items-center p-4 "> <img src="./dist/img/sunrise.png" class="w-[50px] mr-2 flex  " alt="" > <span class="ml-2 text-base font-medium text-black">Fajr</span></a>
+                        <a href="#"  class="flex justify-center  items-center p-4 "> <img src="./dist/img/sun.png" class="w-[50px]  flex ml-3  " alt="" > <span class="ml-2"></span> Dzuhur</a>
+                        <a href="#"  class="flex justify-center  items-center p-4 "> <img src="./dist/img/siang.png" class="w-[50px]  flex ml-1 " alt="" > <span class="ml-2"></span>Ashar</a>
+                        <a href="#"  class="flex justify-center  items-center p-4 "> <img src="./dist/img/ocean.png" class="w-[50px]  flex ml-7 " alt="" > <span class="ml-2"></span>Maghrib</a>
+                        <a href="#"  class="flex justify-center  items-center p-4 "> <img src="./dist/img/cloudy-night.png" class="w-[50px]  flex  " alt="" > <span class="ml-2"></span>Isya</a>
+                   
+                        
+                    </td>
+                    <td class="text-center mx-auto ">
+                        <a href="#"   class="flex justify-center  items-center py-7 ">04:41</a>
+                        <a href="#"   class="flex justify-center  items-center py-7 ">12:03</a>
+                        <a href="#"   class="flex justify-center  items-center py-7 ">15:13</a>
+                        <a href="#"   class="flex justify-center  items-center py-7 ">18:05</a>
+                        <a href="#"  class="flex justify-center  items-center py-7">19:14</a>
+                    </td>
+                    <td class="text-center mx-auto">
+                        <a href="#"  class="flex justify-center  items-center py-7">05.41</a>
+                        <a href="#"  class="flex justify-center  items-center py-7">12.18</a>
+                        <a href="#"  class="flex justify-center  items-center py-7">15.38</a>
+                        <a href="#"  class="flex justify-center  items-center py-7">18.21</a>
+                        <a href="#"  class="flex justify-center  items-center py-7">19.32</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <script>
+        feather.replace();
+      </script>
+    <script src="./dist/js/script.js    "></script>
+</body>
+</html>
